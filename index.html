@@ -5,15 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>speaker-cleaner</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <body>
     <nav>
         <div class="nav-container">
             <div class="logo">Speaker cleaner</div>
-            <div class="menu-icon" id="menuIcon"><img src="menu.png" alt="img" srcset=""></div>
+            <div class="menu-icon" id="menuIcon">
+                <img src="images/menu.png" alt="img" srcset="">
+            </div>
             <ul class="nav-links" id="navLinks">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -21,21 +24,17 @@
                 <li><a href="new.html">New</a></li>
             </ul>
         </div>
-
-        </div>
     </nav>
     <div class="center">
         <div id="center">
-            <img class="img"src="images/speaker-icon.jpeg" id="SpeakerIcon" alt="SpeakerIcon" style="width:150px;height:auto;">
+            <img class="img" src="images/speaker-icon.jpeg" id="SpeakerIcon" alt="SpeakerIcon" style="width:150px;height:auto;">
         </div>
         <div id="center">
-            <audio id="audioElement"
-                src="audio/Wateroutspeakers.mp3"
-                preload="auto"></audio>
+            <audio id="audioElement" src="audio/Wateroutspeakers.mp3" preload="auto"></audio>
             <button class="play" id="play">Play</button>
             <button class="stop" id="stop">Stop</button>
         </div>
-        <div class="para">
+        <div class="note-box">
             <p class="p">make sure your volume is 100%</p>
         </div>
     </div>
