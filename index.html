@@ -1,59 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>speaker-cleaner</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-
-    
 </head>
+
 <body>
-    
-<nav>
-
-    <div class="nav-container">
-        <div class="logo">Speaker cleaner</div>
-        <div class="menu-icon" id="menuIcon"><img src="menu.png" alt="img" srcset=""></div>
-        <ul class="nav-links" id="navLinks">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="new.html">New</a></li>
-
-
-        </ul>
-
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Speaker cleaner</div>
+            <div class="menu-icon" id="menuIcon">
+                <img src="images/menu.png" alt="img" srcset="">
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="new.html">New</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="mega-container">
+        <div class="container">
+            <div class="img-box">
+                <img class="img" src="images/speaker-icon.jpeg" id="SpeakerIcon" alt="SpeakerIcon"
+                    style="width:150px;height:auto;">
+            </div>
+            <div class="button-box">
+                <audio id="audioElement" src="audio/Wateroutspeakers.mp3" preload="auto"></audio>
+                <button class="play" id="play">Play</button>
+                <button class="stop" id="stop">Stop</button>
+            </div>
+            <div class="note-box">
+                <p class="p">make sure your volume is 100%</p>
+            </div>
+        </div>
     </div>
-
-
-</div>
-</nav>  
-<div class="center">
-<div id="center">
-
-    <img class="img"  src="https://raw.githubusercontent.com/RishiWebDeveloper1/speaker-cleaner/main/image/speaker-icon.jpeg" id="SpeakerIcon"  alt="SpeakerIcon"     style="width:150px;height:auto;">
-</div>
-<div id="center">
-    <!-- <audio controls>
-        <source src="https://raw.githubusercontent.com/RishiWebDeveloper1/speaker-cleaner/main/audio/Wateroutspeakers.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio> -->
-
-    <!-- <button class="b1">
-        <img src="https://raw.githubusercontent.com/RishiWebDeveloper1/speaker-cleaner/main/image/speaker-icon.jpeg" alt="Speaker Icon" style="width: 20px; height: auto;">
-        Click Me
-    </button> -->
-    <audio id="audioElement" src="https://raw.githubusercontent.com/RishiWebDeveloper1/speaker-cleaner/main/audio/Wateroutspeakers.mp3" preload="auto"></audio>
-
-<button class="play" id="play">Play</button>
-<button class="stop" id="stop">Stop</button>
-
-</div>
-<div class="para"><p class="p">make sure your volume is 100%</p></div>
-
-</div>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
